@@ -3,9 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Serviços</title>
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Link CSS -->
+   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+   <!-- Header -->
+   <header style="background-image: url('img/background-servicos.jpg')">
+       <!-- Container -->
+      <div class="container">
+           <nav>
+               <a href="index.html">
+                   <img src="img/logo.png" alt="logo">
+               </a>
+               <ul class="ul">
+                   <a href="index.html">Home</a>
+                   <a href="sobre.html">Sobre</a>
+                   <a href="servicos.html">Serviços</a>
+                   <a href="contacto.html" class="btn">Contacto</a>
+                   <div class="close-icon" onclick="closeMenu()">
+                       <i class="fa fa-times-circle"></i>
+                   </div>
+               </ul>
+               <div class="menu-icon" onclick="openMenu()">
+                   <i class="fa fa-bars"></i>
+               </div>
+           </nav>
+           <section class="banner">
+               <div class="banner-text">
+                   <h1>Conheça nossos serviços</h1>
+               </div>              
+           </section>
+      </div> 
+      <!-- End Container -->
+   </header>
+   <!-- End Header -->
+    <section class="servicos">
+        <div class="container">
+            <h3>Nossos serviços</h3>
+            <p>Conheça os nossos melhores serviços</p>
+            <!-- Row Cards -->
+            <div class="rows-cards">
+                <!-- Row Card Item 01 -->
+                <div class="row-card-item">
+                    <img src="img/cloud.png" alt="Cloud">
+                    <p class="nome-servico"><strong>Serviço em Nuvem</strong></p>
+                    <p class="descricao-servico">
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        lit. Atque aspernatur architecto quaerat amet sequi 
+                        suscipit, perferendis, corrupti debitis dignissimos 
+                        nam expedita modi consequatur, quas libero! Aliquam 
+                        doloremque blanditiis error non?
+                    </p>
+                </div>
+                <!-- End Row Card Item 01 -->
+                 <!-- Row Card Item 02 -->
+                <div class="row-card-item">
+                    <img src="img/digital-marketing.png" alt="Digital Marketing">
+                    <p class="nome-servico"><strong>Marketing Digital</strong></p>
+                    <p class="descricao-servico">
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        lit. Atque aspernatur architecto quaerat amet sequi 
+                        suscipit, perferendis, corrupti debitis dignissimos 
+                        nam expedita modi consequatur, quas libero! Aliquam 
+                        doloremque blanditiis error non?
+                    </p>
+                </div>
+                <!-- End Row Card Item 02 -->
+                 <!-- Row Card Item 03 -->
+                 <div class="row-card-item">
+                    <img src="img/seo.png" alt="SEO">
+                    <p class="nome-servico"><strong>SEO</strong></p>
+                    <p class="descricao-servico">
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        lit. Atque aspernatur architecto quaerat amet sequi 
+                        suscipit, perferendis, corrupti debitis dignissimos 
+                        nam expedita modi consequatur, quas libero! Aliquam 
+                        doloremque blanditiis error non?
+                    </p>
+                </div>
+                <!-- End Row Card Item 03 -->
+                 <!-- Row Card Item 04 -->
+                 <div class="row-card-item">
+                    <img src="img/virtual_store.png" alt="E-Commerce">
+                    <p class="nome-servico"><strong>Criação de lojas virtuais</strong></p>
+                    <p class="descricao-servico">
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        lit. Atque aspernatur architecto quaerat amet sequi 
+                        suscipit, perferendis, corrupti debitis dignissimos 
+                        nam expedita modi consequatur, quas libero! Aliquam 
+                        doloremque blanditiis error non?
+                    </p>
+                </div>
+                <!-- End Row Card Item 04 -->
+                 <!-- Row Card Item 05 -->
+                 <div class="row-card-item">
+                    <img src="img/layer.png" alt="Identidade visual & Design">
+                    <p class="nome-servico"><strong>Identidade visual & Design</strong></p>
+                    <p class="descricao-servico">
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        lit. Atque aspernatur architecto quaerat amet sequi 
+                        suscipit, perferendis, corrupti debitis dignissimos 
+                        nam expedita modi consequatur, quas libero! Aliquam 
+                        doloremque blanditiis error non?
+                    </p>
+                </div>
+                <!-- End Row Card Item 05 -->
+                 <!-- Row Card Item 06 -->
+                 <div class="row-card-item">
+                    <img src="img/manager.png" alt="Criação de conteúdo">
+                    <p class="nome-servico"><strong>Criação de conteúdo</strong></p>
+                    <p class="descricao-servico">
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        lit. Atque aspernatur architecto quaerat amet sequi 
+                        suscipit, perferendis, corrupti debitis dignissimos 
+                        nam expedita modi consequatur, quas libero! Aliquam 
+                        doloremque blanditiis error non?
+                    </p>
+                </div>
+                <!-- End Row Card Item 06 -->
+
+            </div>
+        </div>
+    </section>
+<!-- End section serviços -->
+    <section class="dados">
+        <div class="container">
+            <!-- dados-item 1-->
+            <div class="dados-item">
+                <img src="img/cloud.png" alt="projetos concluídos">
+                <p>
+                    <strong>+360</strong><br>
+                    Projetos concluídos
+                </p>
+            </div>
+            <!-- End dados-item 1 --> 
+            <!-- dados-item 2-->
+            <div class="dados-item">
+                <img src="img/manager.png" alt="clientes satisfeitos">
+                <p>
+                    <strong>+890</strong><br>
+                    Clientes satisfeitos
+                </p>
+            </div>
+            <!-- End dados-item 2 -->
+             <!-- dados-item 3-->
+            <div class="dados-item">
+                <img src="img/trophy.png" alt="vencedor">
+                <p>
+                    <strong>+4303</strong><br>
+                    Jornada de trabalho
+                </p>
+            </div>
+            <!-- End dados-item 3 -->
+             <!-- dados-item 4-->
+            <div class="dados-item">
+                <img src="img/layer.png" alt="publicidade paga">
+                <p>
+                    <strong>+254</strong><br>
+                    Publicidade paga
+                </p>
+            </div>
+            <!-- End dados-item 4 -->             
+        </div>
+    </section>
+     <!-- Footer -->
+      <footer class="footer">
+       <div class="container">
+           <div class="links">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-github"></i></a>
+               <a href="#"><i class="fa fa-linkedin"></i></a>
+           </div>
+           <p>
+               Desenvolvido por <b>Richard Brant</b>
+           </p>
+       </div>
+      </footer>
+      <!-- End Footer -->
+       <script src="js/main.js"></script>
 </body>
 </html>

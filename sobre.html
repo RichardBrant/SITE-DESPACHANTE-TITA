@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sobre nós</title>
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Link CSS -->
+   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+   <!-- Header -->
+   <header style="background-image: url('img/background-sobre1.jpg')">
+       <!-- Container -->
+      <div class="container">
+           <nav>
+               <a href="index.html">
+                   <img src="img/logo.png" alt="logo">
+               </a>
+               <ul class="ul">
+                   <a href="index.html">Home</a>
+                   <a href="sobre.html">Sobre</a>
+                   <a href="servicos.html">Serviços</a>
+                   <a href="contacto.html" class="btn">Contacto</a>
+                   <div class="close-icon" onclick="closeMenu()">
+                       <i class="fa fa-times-circle"></i>
+                   </div>
+               </ul>
+               <div class="menu-icon" onclick="openMenu()">
+                   <i class="fa fa-bars"></i>
+               </div>
+           </nav>
+           <section class="banner">
+               <div class="banner-text">
+                   <h1>Sobre nós</h1>
+               </div>              
+           </section>
+      </div> 
+      <!-- End Container -->
+   </header>
+   <!-- End Header -->
+    <section class="sobre">
+        <div class="container">
+            <div class="sobre-text">
+                <h3>Estamos nesse mercado à mais de 8 anos</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quasi libero necessitatibus ipsum aut, ratione sequi natus 
+                    adipisci veritatis explicabo eius vel excepturi at temporibus
+                    suscipit voluptas earum voluptate voluptatum! Dignissimos.
+                    adipisci veritatis explicabo eius vel excepturi at temporibus
+                    suscipit voluptas earum voluptate voluptatum! Dignissimos.
+                </p>
+                <a href="contacto.html" class="btn animate-btn">Entrar em contato</a>
+            </div>
+            <div class="sobre-img">
+                <img src="img/sobre.jpg" alt="Sobre">
+            </div>
+        </div>
+    </section>
+     <!-- Footer -->
+      <footer class="footer">
+       <div class="container">
+           <div class="links">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-github"></i></a>
+               <a href="#"><i class="fa fa-linkedin"></i></a>
+           </div>
+           <p>
+               Desenvolvido por <b>Richard Brant</b>
+           </p>
+       </div>
+      </footer>
+      <!-- End Footer -->
+       <script src="js/main.js"></script>
 </body>
 </html>
