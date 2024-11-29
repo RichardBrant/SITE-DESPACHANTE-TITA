@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fale conosco</title>
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Link CSS -->
+   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+   <!-- Header -->
+   <header style="background-image: url('img/background-contacto.jpg')">
+       <!-- Container -->
+      <div class="container">
+           <nav>
+               <a href="index.html">
+                   <img src="img/logo.png" alt="logo">
+               </a>
+               <ul class="ul">
+                   <a href="index.html">Home</a>
+                   <a href="sobre.html">Sobre</a>
+                   <a href="servicos.html">Serviços</a>
+                   <a href="contacto.html" class="btn">Contacto</a>
+                   <div class="close-icon" onclick="closeMenu()">
+                       <i class="fa fa-times-circle"></i>
+                   </div>
+               </ul>
+               <div class="menu-icon" onclick="openMenu()">
+                   <i class="fa fa-bars"></i>
+               </div>
+           </nav>
+           <section class="banner">
+               <div class="banner-text">
+                   <h1>Fale conosco</h1>
+                   <p>
+                    Entre em contato com o nosso time e iremos te retornar o quanto antes para 
+                    tirar seu negócio do papel!
+                   </p>
+               </div>              
+           </section>
+      </div> 
+      <!-- End Container -->
+   </header>
+   <!-- End Header -->
+   <section class="contacto">
+    <div class="container">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2105.8949523651604!2d-49.60159775625396!3d-27.41694118884606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df916676cce371%3A0xc3073a1b5ee9b117!2sDespachante%20Tita!5e0!3m2!1spt-BR!2sbr!4v1732847490814!5m2!1spt-BR!2sbr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contacto-info">
+            <div class="left-side">
+                <i class="fa fa-map-marker"></i>
+                <p>R. Gov. Célso Ramos, 155 - Centro, Ituporanga - SC, 88400-000</p>
+                <i class="fa fa-envelope-o"></i>
+                <p>despachantetita@hotmail.com</p>
+                <i class="fa fa-phone"></i>
+                <p>(47) 3533-1177</p>
+            </div>
+            <div class="right-side">
+                <form action="">
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="email" placeholder="Assunto" required>
+                    <textarea cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+                    <button class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+   </section>
+     <!-- Footer -->
+      <footer class="footer">
+       <div class="container">
+           <div class="links">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-github"></i></a>
+               <a href="#"><i class="fa fa-linkedin"></i></a>
+           </div>
+           <p>
+               Desenvolvido por <b>Richard Brant</b>
+           </p>
+       </div>
+      </footer>
+      <!-- End Footer -->
+       <script src="js/main.js"></script>
 </body>
 </html>
